@@ -68,7 +68,7 @@ const curlymarkb = document.querySelector("img.curlymarkB");
 console.log(curlymarkb);
 
 // Check-Check: change text
-quote.innerHTML = "Let's travel the world!";
+quote.innerHTML = "Let's travel the world! Click the globe to start.";
 // Check-Check: background image
 bgImage.style.backgroundImage = "url(/assets/globe.gif)";
 // Check-Check: change author text
