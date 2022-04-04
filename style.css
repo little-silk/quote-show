@@ -1,0 +1,96 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+
+body {
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* Extend full height of browser  */
+  height: 100vh;
+
+  /* Load Background Images with JS. Style with CSS */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Apply Font */
+main {
+  font-family: "Merienda", cursive;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+  width: 60vw;
+}
+
+.container {
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 20%;
+  /* Add contrast to text */
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 1);
+  border: solid 3px white;
+  z-index: 3;
+  font-size: 3vw;
+  align-items: center;
+}
+
+blockquote {
+  z-index: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+img.random {
+  width: 25%;
+}
+
+.curlymarkA {
+  width: 15vw;
+  z-index: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+p {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 3vw;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+.takeoff {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding-bottom: 100px;
+  margin-left: 200px;
+}
+
+.curlymarkB {
+  width: 15vw;
+  z-index: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
